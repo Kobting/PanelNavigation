@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#123433">
+
+    <com.discord.panels.OverlappingPanelsLayout
+        android:id="@+id/layout_panels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@id/start_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#123456"/>
+
+        <FrameLayout
+            android:id="@id/center_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#345678"/>
+
+        <FrameLayout
+            android:id="@id/end_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#567890"/>
+
+    </com.discord.panels.OverlappingPanelsLayout>
+
+
+
+
+</LinearLayout>

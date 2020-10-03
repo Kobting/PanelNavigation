@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Panel Navigation Example</string>
+    <string name="attack">Attack</string>
+    <string name="strength">Strength</string>
+    <string name="woodcutting">Woodcutting</string>
+    <string name="combat">Combat</string>
+    <string name="skills">Skills</string>
+</resources>

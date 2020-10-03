@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="start_panel" type="id"/>
+    <item name="center_panel" type="id"/>
+    <item name="end_panel" type="id"/>
+</resources>
