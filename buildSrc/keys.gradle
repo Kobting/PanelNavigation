@@ -1,0 +1,8 @@
+try {
+    def keysPropertiesFile = file("$rootProject.rootDir/buildSrc/keys/keys.properties")
+    def keys = new Properties()
+    keys.load(new FileInputStream(keysPropertiesFile))
+    ext.keys = keys
+} catch(ex) {
+    ext.keys = [username: System.getenv("USER_NAME"), mavenDeploy: System.getenv("DEPLOY_KEY")]
+}
