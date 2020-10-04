@@ -8,8 +8,8 @@ apply from: "$rootProject.rootDir/buildSrc/keys.gradle"
 ext {
     mGroupId = "com.mikep"
     mArtifactId = "panelnavigation"
-    mVersionCode = 2
-    mVersionName = "0.1.1"
+    mVersionCode = 3
+    mVersionName = "0.1.2"
 
     mLibraryName = "PanelNavigation"
     mLibraryDescription = "Navigation Library for Discords OverlappingPannelsLayout"
